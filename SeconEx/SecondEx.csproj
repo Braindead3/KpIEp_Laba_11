@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D21EACFE-31BD-463A-BFAA-3F25EC3E3CD2}</ProjectGuid>
+    <ProjectGuid>{2EE056B5-51CA-4091-A76B-70AB7DF21A38}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>KpIEp_Laba_11</RootNamespace>
-    <AssemblyName>KpIEp_Laba_11</AssemblyName>
+    <RootNamespace>SeconEx</RootNamespace>
+    <AssemblyName>SeconEx</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Circle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SortByOstatok.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
